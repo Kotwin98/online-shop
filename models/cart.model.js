@@ -1,3 +1,5 @@
+const Product = require('./product.model');
+
 class Cart {
   constructor(items = [], totalQuantity = 0, totalPrice = 0) {
     this.items = items;
